@@ -1,0 +1,52 @@
+.todoItems {
+    padding: 8px 5px;
+    border-bottom: 1px solid #5f5c5c;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.todoItems-complete {
+    opacity: 0.3;
+    text-decoration: line-through;
+}
+.todoItems p {
+    margin-left: 10px;
+    width: 80%;
+    text-align: left;
+}
+
+.header {
+    display: flex;
+    padding: 10px 5px;
+    border-bottom: 1px solid #5f5c5c;
+    text-align: center;
+}
+
+.header input {
+    margin-left: 10px;
+    width: 80%;
+    border: none;
+}
+
+/* FOOTER STYLING */
+.footer {
+    /* display: flex; */
+    padding: 10px 5px;
+    border-bottom: 1px solid #5f5c5c;
+    text-align: center;
+    font-size: 75%;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.footer .footer-left {
+    /* margin-right: auto; */
+    float: left;
+}
+.footer .nav {
+    display: inline-block;
+}
+.footer .footer-right {
+    float: right;
+}
